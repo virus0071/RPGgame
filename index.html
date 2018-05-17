@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Avengers</title>
+  <link rel='icon' href='assets/images/A.png' type='image/x-icon'/>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+  <header>
+    <div><img src="assets/images/avengers.png" width=500px></div>
+  </header>
+
+  <div class="col-lg-12" id="characters-available">
+      <span class="characterImage availableCharacter" id="Captain-America">
+        <p>Captain America</p>
+        <img src="assets/images/CA.png" alt="CA" id="CA-image" style="width: 200px">
+        <p class="health">220</p>
+      </span>
+
+      <span class="characterImage availableCharacter" id="Hulk">
+        <p>Hulk</p>
+        <img src="assets/images/Hulk.png" alt="Hulk" id="Hulk-image" style="width: 150px">
+        <p class="health">240</p>
+      </span>
+
+      <span class="characterImage availableCharacter" id="Iron-Man">
+        <p>Iron Man</p>
+        <img src="assets/images/IM.png" alt="IM" id="IM-image" style="width: 200px">
+        <p class="health">230</p>
+      </span>
+
+      <span class="characterImage availableCharacter" id="Thor">
+        <p>Darth Maul</p>
+        <img src="assets/images/Thor.png" alt="Thor" id="Thor-image" style="width: 200px">
+        <p class="health">280</p>
+      </span>
+    </div>
+
+    <div class="col-lg-12" id="character-selected">
+      <h2>Your Character</h2>
+    </div>
+
+    <div class="col-lg-12" id="enemies-available">
+        <h2>Choose An Enemy</h2>
+      </div>
+
+  
+      <div class="col-lg-12" id="fight-section">
+        <h2>Fight Section</h2>
+        <button id="attack">Attack</button>
+      </div>
+
+  
+      <div class="col-lg-12" id="defender-section">
+        <h2>Defender</h2>
+      </div>
+
+      <div class="col-lg-12" id="message-section">
+        <div id="game-message"></div>
+        <button id="restart">Restart</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <script type="text/javascript" src="assets/js/game.js"></script>
+</body>
+
+</html>
